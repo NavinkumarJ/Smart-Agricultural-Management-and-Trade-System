@@ -1,0 +1,135 @@
+{
+  "farmers": [
+    {
+      "id": 1,
+      "name": "Ramesh Kumar",
+      "location": "Thanjavur",
+      "region": "south",
+      "farmSize": "5 acres",
+
+      "crops": [
+        {
+          "name": "Paddy",
+          "variety": "BPT 5204",
+          "area": "3 acres",
+          "stage": "Vegetative",
+          "expectedYield": "2.5 tons",
+          "irrigation": "Every 3 days"
+        },
+        {
+          "name": "Sugarcane",
+          "variety": "CO 86032",
+          "area": "2 acres",
+          "stage": "Sowing",
+          "expectedYield": "40 tons",
+          "irrigation": "Weekly"
+        }
+      ],
+
+      "pesticides": [
+        {
+          "name": "Chloropyrifos",
+          "type": "Insecticide",
+          "quantity": "6 L",
+          "expiry": "2026-04-10",
+          "usage": "Stem borer control"
+        },
+        {
+          "name": "Bavistin",
+          "type": "Fungicide",
+          "quantity": "3 kg",
+          "expiry": "2025-12-15",
+          "usage": "Root rot control"
+        }
+      ],
+
+      "livestock": [
+        {
+          "animal": "Cow",
+          "count": 4,
+          "health": "Good",
+          "vaccination": "Up-to-date"
+        },
+        {
+          "animal": "Goat",
+          "count": 12,
+          "health": "Moderate",
+          "vaccination": "Due Apr 2025"
+        }
+      ],
+
+      "tools": [
+        {
+          "name": "Tractor",
+          "model": "Mahindra 475 DI",
+          "condition": "Good",
+          "lastServiced": "2024-08-10"
+        },
+        {
+          "name": "Water Pump",
+          "model": "Kirloskar 5HP",
+          "condition": "Medium",
+          "lastServiced": "2024-06-18"
+        }
+      ],
+
+      "consumables": [
+        {
+          "item": "Paddy Seeds",
+          "quantity": "25 kg"
+        },
+        {
+          "item": "Fuel (Diesel)",
+          "quantity": "35 L"
+        }
+      ]
+    },
+
+    {
+      "id": 2,
+      "name": "Meena Devi",
+      "location": "Coimbatore",
+      "region": "west",
+      "farmSize": "3 acres",
+
+      "crops": [
+        {
+          "name": "Banana",
+          "variety": "G9",
+          "area": "2 acres",
+          "stage": "Flowering",
+          "expectedYield": "18 tons",
+          "irrigation": "Drip — Daily"
+        }
+      ],
+
+      "pesticides": [
+        {
+          "name": "Neem Oil",
+          "type": "Organic Insecticide",
+          "quantity": "10 L",
+          "expiry": "2027-02-01",
+          "usage": "Aphid control"
+        }
+      ],
+
+      "livestock": [],
+
+      "tools": [
+        {
+          "name": "Rotavator",
+          "model": "Shaktiman 42",
+          "condition": "Good",
+          "lastServiced": "2024-09-25"
+        }
+      ],
+
+      "consumables": [
+        {
+          "item": "Fertilizer (NPK 20-20-20)",
+          "quantity": "50 kg"
+        }
+      ]
+    }
+  ]
+}
